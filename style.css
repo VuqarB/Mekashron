@@ -1,0 +1,510 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    padding: 30px 0 35px 0;
+}
+
+.intro__img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.offers {
+    padding-bottom: 75px;
+    width: 100%;
+}
+
+.offer {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    padding: 10px 15px 10px 5px;
+}
+
+.offer__top {
+    margin-bottom: 7px;
+    word-break: keep-all;
+}
+
+.offer__img {
+    padding-right: 10px;
+}
+
+.offer__title {
+    text-transform: uppercase;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.offer__link {
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.offer__desc {
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #5F5F5F;
+    margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .offer__img img {
+        width: 50px;
+    }
+
+    .offer__title {
+        font-size: 14px;
+    }
+
+    .offer__link {
+        font-size: 10px;
+    }
+
+    .offer__desc {
+        font-size: 12px;
+    }
+}
+
+.upcomings__title {
+    font-size: 1.5rem;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.upcoming {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 0 24px 0;
+}
+
+.upcoming__top {
+    padding: 5.5px 28.5px 5.5px 39px;
+}
+
+.upcoming__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 141px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #E0E0E0;
+}
+
+.upcoming__info {
+    padding-left: 24px;
+}
+
+.upcoming__place {
+    padding-bottom: 10px;
+}
+
+.upcoming__place span {
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.upcoming__amount {
+    font-size: 26px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #13902A;
+}
+
+@media only screen and (max-width: 480px) {
+    .upcoming__top {
+        padding: 5.2px 24.5px 4.2px 23.2px;
+    }
+
+    .upcoming__img {
+        width: 120px;
+        height: 69px;
+    }
+
+    .upcoming__img img {
+        width: 65.06px;
+        height: 58.17px;
+    }
+
+    .upcoming__place span {
+        font-size: 12px;
+    }
+
+    .upcoming__amount {
+        font-size: 22px;
+    }
+}
+
+
+.upcoming__bottom {
+    padding: 14px 0 8.5px 12.25px;
+    background: #0061A3;
+}
+
+.upcoming__btn {
+    margin-right: 40px;
+}
+
+.upcoming__date i {
+    color: #fff;
+}
+
+.upcoming__date span {
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.lotteries {
+    padding: 75px 0;
+}
+
+.lotteryRow {
+    padding: 0 50px;
+}
+
+.more-details {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.section-btn {
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    background: #F30000;
+    border-radius: 8px;
+
+    font-size: 18px;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-btn:hover {
+    color: #fff;
+}
+
+.lottery {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 13px;
+    margin: 0 6px 12px;
+
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+}
+
+.lottery__star {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+}
+
+.lottery__icon {
+    border: 2px solid #E0E0E0;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    margin-bottom: 29px;
+}
+
+.lottery__content {
+    text-align: center;
+}
+
+.lottery__name {
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lottery__img {
+    border-radius: 2px;
+}
+
+.lottery__amount {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.lottery__date {
+    padding: 8px 0 12px 0;
+}
+
+.bi-clock {
+    color: #0061A3;
+    font-weight: 500;
+}
+
+.lottery__date-info {
+    color: #0061A3;
+    font-size: 1rem;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.cards__btn {
+    display: inline-block;
+    width: 182px;
+    height: 38px;
+    background: #F7D300;
+    border-radius: 8px;
+
+    font-size: 1rem;
+    line-height: 38px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.cards__btn:hover {
+    color: #000;
+}
+
+.winners__btn {
+    margin-bottom: 15px;
+}
+
+.total-prizes {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+
+.total-prizes__title {
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 400;
+}
+
+.total-prizes__amount {
+    color: #13902A;
+    font-size: 26px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+
+.total-prizes__tickets strong {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+}
+
+.total-prizes__tickets span {
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 500;
+
+    padding-left: 10px;
+}
+
+.tickets {
+    padding: 10px 15px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.tickets__code {
+    font-size: 14px;
+    line-height: 21px;
+    color: #5F5F5F;
+}
+
+.tickets__img {
+    border-radius: 2px;
+    padding-right: 17.5px;
+}
+
+.tickets__name {
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.winners__about {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 28px 49px;
+    margin-bottom: 32px;
+}
+
+.winners__title {
+    padding-bottom: 30px;
+}
+
+.winners__title img {
+    padding-right: 20px;
+}
+
+.winners__won {
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+.winners__amount {
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #0061A3;
+}
+
+.winners__story-info {
+    padding-left: 15px;
+}
+
+.winners__story-title {
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 700;
+
+    padding-bottom: 15px;
+}
+
+.winners__story-desc {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+
+    padding-right: 60px;
+}
+
+.winners__img img {
+    width: 100%;
+    margin-bottom: 21px
+}
+
+@media only screen and (max-width: 768px) {
+    .winners__about {
+        padding: 28px 15px;
+    }
+
+    .winners__story-desc {
+        padding-right: 0;
+    }
+}
+
+.winners__fullstory {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+}
+
+.winners__play {
+    width: 80%;
+    margin-top: 35px;
+}
+
+.winners__result-desc {
+    margin-bottom: 16px;
+}
+
+.winners__result-desc>span {
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.winners__result-points span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 20px;
+    height: 20px;
+    background: #F30000;
+    border-radius: 50px;
+    margin-left: 7px;
+
+    font-size: 12px;
+    line-height: 120%;
+    font-weight: 500;
+    color: #fff;
+}
+
+.winners__result-points:first-child span {
+    margin-left: 10px;
+}
+
+.winners__result-date {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: 5px;
+}
+
+.questions {
+    padding: 50px 0;
+}
+
+.questions__title {
+    font-size: 1.5rem;
+    line-height: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+    .questions__title {
+        font-size: 1.1rem;
+    }
+}
+
+.questions__arrow {
+    font-size: 18px;
+    line-height: 24px;
+    color: #0061A3;
+    font-weight: 500;
+}
+
+.questions__arrow::after {
+    content: '';
+
+    flex-shrink: 0;
+    width: .85rem;
+    height: .85rem;
+    margin-left: auto;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: .85rem;
+    transition: transform .2s ease-in-out;
+}
